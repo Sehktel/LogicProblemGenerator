@@ -1,0 +1,295 @@
+\documentclass[12pt,a4paper,final,notitlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{amsmath}
+\usepackage[T2A]{fontenc}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{autor}
+\title{Logic Tables}
+\usepackage{tablefootnote}
+\usepackage[symbol*]{footmisc}
+\usepackage{indentfirst}
+\setlength\parindent{1.5em}
+\begin{document}
+
+  \centering
+  \LARGE Упрощение логических функций \\[1.5em]
+  \large Фамилия2 Имя2 \\[1em]
+  \normalsize
+
+Произвести упрощение следующих функций, заданных картой Карно.
+
+\begin{table}[htbp]
+\begin{minipage}{\textwidth}
+\centering
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{cccccccccccc}
+\multicolumn{12}{c}{Базовое задание. Получить СДНФ, СКНФ, ДНФ, КНФ} \\
+ &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   \\ \cline{1-4} \cline{6-7} \cline{9-12}
+\multicolumn{1}{|c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} \\ \cline{1-4} \cline{6-7} \cline{9-12}
+\multicolumn{1}{|c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} \\ \cline{1-4} \cline{6-7} \cline{9-12}
+ &
+   &
+   &
+   &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} \\ \cline{6-7} \cline{9-12}
+ &
+   &
+   &
+   &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} \\ \cline{6-7} \cline{9-12}
+ &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   \\
+\multicolumn{12}{c}{\begin{tabular}[c]{@{}c@{}}Задание повышенной сложности. \footnotetext{* +1/4 баллов}{*}\\ Функция от 5 переменных f(A, B, C, D, E)\end{tabular}} \\
+ &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+   &
+   \\ \cline{3-10}
+ &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   \\
+\multicolumn{12}{c}{\begin{tabular}[c]{@{}c@{}}Задание повышенной сложности.  \footnotetext{** Удвоение баллов}{**} \\ Функция от 6 переменных f (A, B, C, D, E, G)\end{tabular}} \\
+ &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+   &
+   \\ \cline{3-10}
+ &
+  \multicolumn{1}{c|}{} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{1} &
+  \multicolumn{1}{c|}{0} &
+  \multicolumn{1}{c|}{0} &
+   &
+   \\ \cline{3-10}
+\end{tabular}
+\end{minipage}
+\end{table}
+
+\textbf{Защита работы:} \\
+\begin{flushleft}
+\hspace*{15pt} Предоставить черновик рассуждений, из которого будет видно, как вы рассуждали при решениии задачи (этапы сокращения функций и тд). Привести таблицу истинности, которая получилась на основе карт Карно. Обратите внимание, что в них не указан порядок входных сигналов. Т.е. например для функции \textit{f(ABC)} необъязательно, что \textbf{А} всегда слева, а \textbf{BC} сверху. Это вы должны указать самостоятельно, особенно для заданий повышенной сложности.
+\end{flushleft}
+
+\end{document}
+
